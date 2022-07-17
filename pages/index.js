@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Avatar from '../components/avatar'
 
 export default function Home() {
     return (
@@ -11,14 +12,23 @@ export default function Home() {
             </Head>
 
             {/* Header */}
-            <header>
+            <header className="flex w-full p-5 justify-between text-sm text-gray-700">
                 {/* Left Div */}
-                <p>About</p>
-                <p>Store</p>
+                <div className="flex space-x-4 items-center">
+                    <p className="link">About</p>
+                    <p className="link">Store</p>
+                </div>
 
                 {/* Right Div */}
-                <p>Gmail</p>
-                <p>Images</p>
+                <div className="flex space-x-4 items-center">
+                    <p className="link">Gmail</p>
+                    <p className="link">Images</p>
+                </div>
+
+                {/* Icon */}
+
+                {/* Avatar */}
+                <Avatar url="https://coaching.papareact.com/ai9" />
             </header>
 
             <h1 className="p-48">Let's build Google clone with NEXT.js and Tailwind CSS</h1>
