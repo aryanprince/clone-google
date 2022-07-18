@@ -8,6 +8,6 @@ module.exports = nextConfig
 
 module.exports = {
     images: {
-        domains: ['www.google.com'],
+        domains: ['www.google.com',],
     },
 }

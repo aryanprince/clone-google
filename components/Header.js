@@ -28,6 +28,7 @@ function Header() {
             <div className="flex w-full p-6 items-center">
                 <Image
                     src="https://www.google.com/logos/doodles/2022/oskar-salas-112th-birthday-6753651837108454.2-s.png"
+                    alt="google doodle"
                     height={40}
                     width={120}
                     onClick={() => router.push('/')}
