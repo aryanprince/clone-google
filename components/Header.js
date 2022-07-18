@@ -1,10 +1,12 @@
 import React from 'react'
+import { useRef } from 'react'
+
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import { useRef } from 'react'
+
 import { XIcon } from '@heroicons/react/outline'
 import { SearchIcon, MicrophoneIcon } from '@heroicons/react/solid'
-import Avatar from './avatar'
+
 import HeaderOptions from './HeaderOptions'
 
 function Header() {
@@ -46,11 +48,16 @@ function Header() {
                     </button>
                 </form>
 
-                <Avatar className="ml-auto" url="https://coaching.papareact.com/ai9" />
-
-                {/* Header Options */}
-                <HeaderOptions />
+                <img
+                    loading="lazy"
+                    className="h-10 rounded-full cursor-pointer transition duration-150  transform hover:scale-110 ml-auto"
+                    src="https://coaching.papareact.com/ai9"
+                    alt="profile pic"
+                />
             </div>
+
+            {/* Header Options */}
+            <HeaderOptions />
         </header>
     )
 }
