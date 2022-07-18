@@ -52,6 +52,7 @@ export default function Home() {
                         className="h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110"
                         src="https://avatars.githubusercontent.com/u/45622345?v=4"
                         alt="profile pic"
+                        title="Click here to go to my GitHub profile"
                     />
                 </div>
             </header>
@@ -71,7 +72,7 @@ export default function Home() {
                         Google Search
                     </button>
                     <button className="button" onClick={search}>
-                        Im Feeling Lucky
+                        {`I'm Feeling Lucky`}
                     </button>
                 </div>
             </form>
