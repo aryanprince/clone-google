@@ -1,8 +1,8 @@
-// API Key - https://developers.google.com/custom-search/v1/using_rest
-export const API_KEY = 'AIzaSyCp5c4ZrVshZ8fJ5WXnS3oBKPnNOpEsl7I'
+// // API Key - https://developers.google.com/custom-search/v1/using_rest
+// export const API_KEY = 'AIzaSyCp5c4ZrVshZ8fJ5WXnS3oBKPnNOpEsl7I'
 
-// Context Key - https://cse.google.com/cse/create/new
-export const CONTEXT_KEY = '94157dd9024564ef2'
+// // Context Key - https://cse.google.com/cse/create/new
+// export const CONTEXT_KEY = '94157dd9024564ef2'
 
 //WORKING KEYS:
 // context = 5dfda8bc663d663e4
