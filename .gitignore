@@ -32,4 +32,4 @@ yarn-error.log*
 .vercel
 
 #ignore keys.js file
-./keys.js
+.keys.js
